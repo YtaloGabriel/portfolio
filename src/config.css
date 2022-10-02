@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Lato Italic';
+  src: url(./assets/fonts/Lato/Lato-Italic.ttf) format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato 200';
+  src: url(./assets/fonts/Lato/Lato-Thin.ttf) format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Lato 300';
+  src: url(./assets/fonts/Lato/Lato-Light.ttf) format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato 500';
+  src: url(./assets/fonts/Lato/Lato-Bold.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Lato 900';
+  src: url(./assets/fonts/Lato/Lato-Black.ttf) format('truetype');
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark1: #030303;
+  --dark2: #18191C;
+  --dark3: #202225;
+  --dark4: #2F3136;
+  --dark5: #36393F;
+
+  --white1: #ffffff;
+  --white2: #EEEEEE;
+  --white3: #EBEFF2;
+  --white4: #AFBEC5;
+
+  --blue1: #0083CA;
+  --blue2: #9CAEC6;
+  --blue3: #0CABA8;
+  --blue4: #0FC2C0;
+}
+
+.App {
+  background-color: var(--dark1);
+  font-family: 'Lato', sans-serif !important;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 1.5rem;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
+/* Color Components Config */
+
+.subtitleTheme1 {
+  color: var(--blue1);
+}
+
+.subtitleTheme1::after {
+  background-color: var(--blue2);
+}
+
+.titleTheme1 {
+  color: var(--blue3) !important;
+}
+
+.titleTheme1::before {
+  background-color: var(--blue4) !important;
+}
+
+
+/* Animations */
+
+.sliderLeft {
+  animation: sliderLeft .25s ease-in-out forwards;
+}
+
+.sliderRight {
+  animation: sliderRight .25s ease-in-out forwards;
+}
+
+@keyframes sliderLeft {
+  from {
+    transform: translateX(50%)
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sliderRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}

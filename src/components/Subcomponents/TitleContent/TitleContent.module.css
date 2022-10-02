@@ -1,0 +1,16 @@
+.titleContent {
+  font-size: 1.3rem;
+  font-family: 'Lato 300', 'Lato', sans-serif;
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-bottom: 1.5rem;
+}
+
+.titleContent::before {
+  content:"";
+  width: 1.5rem;
+  height: .3rem;
+  margin-right: .5rem;
+  border-radius: .2rem;
+}

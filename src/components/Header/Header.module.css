@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.title {
+  position: absolute;
+  align-self: flex-end;
+  font-size: 27vw;
+  z-index: 0;
+  transform: translateY(4.5rem);
+  opacity: .025;
+  font-family: 'Lato 500';
+  letter-spacing: .4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage {
+  background-color: var(--blue1);
+  width: 10rem;
+  height: 10rem;
+  border: .3rem solid var(--blue2);
+  border-radius: 1rem;
+  align-self: center;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.image {
+  transform: rotate(0) translate3d(-22.55%, -6.5%, 0) scale(150%);
+  border-bottom-right-radius: .5rem;
+  filter: grayscale(1);
+}

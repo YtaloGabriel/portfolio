@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  background-color: var(--dark2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  height: 4.5rem;
+  border-radius: 5rem;
+}
+
+.slider {
+  background-color: var(--dark5);
+  width: calc(50% - 1rem);
+  height: 3rem;
+  position: absolute;
+  border-radius: 5rem;
+  transition: .3s ease;
+}
+
+.button {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+  color: #fff;
+  /* text-transform: uppercase; */
+  font-family: 'Lato';
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.button:nth-child(2) {
+  margin-right: 1rem;
+}
