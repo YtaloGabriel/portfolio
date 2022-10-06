@@ -6,9 +6,11 @@ import typescript from '../../assets/img/technologies/typescript.png';
 import react from '../../assets/img/technologies/react.png';
 import python from '../../assets/img/technologies/python.png';
 import git from '../../assets/img/technologies/git.png';
+import download from '../../assets/img/social/download.svg';
 import Subtitle from '../Subcomponents/Subtitle/Subtitle';
 import TitleContent from '../Subcomponents/TitleContent/TitleContent';
 import MyLinks from '../MyLinks/MyLinks';
+import curriculum from '../../assets/curriculum.pdf';
 
 const About = () => {
   return (
@@ -57,7 +59,14 @@ const About = () => {
       </div>
 
       <div className={Styles.container}>
-        <TitleContent colorTheme="titleTheme1">Curriculum Vitae</TitleContent>
+        <a
+          href={curriculum}
+          className={Styles.curriculumButton}
+          download="Ytalo Gabriel - CV"
+        >
+          <img src={download} alt="Ícone de Download" />
+          <span>Baixar CV</span>
+        </a>
       </div>
     </section>
   );
