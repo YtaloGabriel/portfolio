@@ -14,7 +14,7 @@ import curriculum from '../../assets/curriculum.pdf';
 
 const About = () => {
   return (
-    <section className={Styles.content}>
+    <section className={`${Styles.content} slideToLeft`}>
       <div className={Styles.container}>
         <h1 className={Styles.title}>Ytalo Gabriel</h1>
         <Subtitle>Web Developer</Subtitle>
@@ -63,6 +63,7 @@ const About = () => {
           href={curriculum}
           className={Styles.curriculumButton}
           download="Ytalo Gabriel - CV"
+          target="_blank"
         >
           <img src={download} alt="Ícone de Download" />
           <span>Baixar CV</span>

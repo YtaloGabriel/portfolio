@@ -11,7 +11,11 @@ import instagram from '../../assets/img/social/instagram.svg';
 const MyLinks = () => {
   return (
     <section className={Styles.container}>
-      <a href="#" className={Styles.link}>
+      <a
+        href="https://api.whatsapp.com/send?phone=5582981895621"
+        target="_blank"
+        className={Styles.link}
+      >
         <img className={Styles.linkImage} src={whatsapp} alt="WhatsApp logo" />
         <span className={`${Styles.linkTitle} ${Styles.whatsapp}`}>
           WhatsApp
@@ -19,7 +23,11 @@ const MyLinks = () => {
         <img src={URLImage} alt="Ícone de Link" />
       </a>
 
-      <a href="#" className={Styles.link}>
+      <a
+        href="https://linkedin.com/in/YtaloGabriel"
+        target="_blank"
+        className={Styles.link}
+      >
         <img className={Styles.linkImage} src={linkedin} alt="LinkedIn logo" />
         <span className={`${Styles.linkTitle} ${Styles.linkedin}`}>
           LinkedIn
@@ -27,13 +35,21 @@ const MyLinks = () => {
         <img src={URLImage} alt="Ícone de Link" />
       </a>
 
-      <a href="#" className={Styles.link}>
+      <a
+        href="https://github.com/YtaloGabriel"
+        target="_blank"
+        className={Styles.link}
+      >
         <img className={Styles.linkImage} src={github} alt="Github  logo" />
         <span className={`${Styles.linkTitle} ${Styles.github}`}>Github</span>
         <img src={URLImage} alt="Ícone de Link" />
       </a>
 
-      <a href="#" className={Styles.link}>
+      <a
+        href="mailto:ytalogabr@gmail.com"
+        target="_blank"
+        className={Styles.link}
+      >
         <img className={Styles.linkImage} src={email} alt="E-mail  @ logo" />
         <span className={`${Styles.linkTitle} ${Styles.email}`}>
           ytalogabr@gmail.com
@@ -41,7 +57,11 @@ const MyLinks = () => {
         <img src={URLImage} alt="Ícone de Link" />
       </a>
 
-      <a href="#" className={Styles.link}>
+      <a
+        href="https://instagram.com/ytalogabr"
+        target="_blank"
+        className={Styles.link}
+      >
         <img
           className={Styles.linkImage}
           src={instagram}
