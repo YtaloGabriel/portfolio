@@ -128,25 +128,30 @@ img {
 
 @keyframes sliderLeft {
   from {
-    transform: translateX(50%)
+    transform: translateX(50%);
+    -webkit-transform: translate(50%, 0);
   }
   to {
     transform: translateX(-50%);
+    -webkit-transform: translate(-50%, 0);
   }
 }
 
 @keyframes sliderRight {
   from {
     transform: translateX(-50%);
+    -webkit-transform: translate(-50%, 0);
   }
   to {
     transform: translateX(50%);
+    -webkit-transform: translate(50%, 0);
   }
 }
 
 @keyframes slideToLeft {
   from {
     transform: translateX(2rem);  
+    -webkit-transform: translate(2rem, 0);
     opacity: 0;
   }
   to {
@@ -157,6 +162,7 @@ img {
 @keyframes slideToRight {
   from {
     transform: translateX(-2rem);  
+    -webkit-transform: translate(-2rem, 0);
     opacity: 0;
   }
   to {
