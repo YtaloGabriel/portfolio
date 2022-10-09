@@ -6,7 +6,6 @@ import { GlobalContext } from '../../GlobalContext';
 export const ToggleOptions = () => {
   const { contentActive, setContentActive } = React.useContext(GlobalContext);
   const [sliderPosition, setSliderPosition] = React.useState('sliderLeft');
-  console.log(contentActive);
 
   const aboutButtonActive = (event) => {
     event.preventDefault();

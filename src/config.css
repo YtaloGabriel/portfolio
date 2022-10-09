@@ -57,6 +57,9 @@
   --blue2: #9CAEC6;
   --blue3: #0CABA8;
   --blue4: #0FC2C0;
+
+  --orange1: #F26522;
+  --orange2: #F29C04;
 }
 
 .App {
@@ -97,6 +100,13 @@ img {
   background-color: var(--blue4) !important;
 }
 
+.titleTheme2 {
+  color: var(--orange1) !important;
+}
+
+.titleTheme2::before {
+  background-color: var(--orange2) !important;
+}
 
 /* Animations */
 
