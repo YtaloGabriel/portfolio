@@ -40,5 +40,5 @@
 
 .devImage {
   width: 32vw;
-  height: fit-content;
+  height: auto;
 }
