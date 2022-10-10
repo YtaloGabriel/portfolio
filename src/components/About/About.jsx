@@ -16,15 +16,15 @@ const About = () => {
   return (
     <section className={`${Styles.content} slideToLeft`}>
       <div className={Styles.container}>
-        <h1 className={Styles.title}>Ytalo Gabriel</h1>
-        <Subtitle>Web Developer</Subtitle>
+        <h1 className={Styles.title}>Quem sou eu?</h1>
+        <Subtitle>Front End Developer</Subtitle>
         <p className={Styles.textInfo}>
           Alagoano nato, completamente apaixonado pela tecnologia, em especial o
-          Front End Dev. Estou atualmente cursando Sistemas de Informação no
+          Front End Dev. Estou, atualmente, cursando Sistemas de Informação no
           Instituto Federal de Alagoas (IFAL), "brinco" com o desenvolvimento
           Front End desde 2015, mas comecei no mundo da programação,
-          definitivamente, em 2018. Hoje estou e em busca da minha primeira
-          oportunidade na área.
+          definitivamente, em 2018, com JavaScript. Hoje estou e em busca da
+          minha primeira oportunidade na área de desenvolvimento.
         </p>
       </div>
 
