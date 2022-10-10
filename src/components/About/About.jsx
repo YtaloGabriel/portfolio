@@ -54,7 +54,7 @@ const About = () => {
       {/*  */}
 
       <div className={Styles.container}>
-        <TitleContent colorTheme="titleTheme1">Conexões</TitleContent>
+        <TitleContent colorTheme="titleTheme1">Conexões Sociais</TitleContent>
         <MyLinks />
       </div>
 

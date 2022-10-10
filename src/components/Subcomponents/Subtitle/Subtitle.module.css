@@ -1,15 +1,15 @@
 .subtitle {
-  font-size: 1.3rem;
-  font-family: 'Lato 200', 'Lato', sans-serif;
+  font-size: 1.4rem;
+  font-family: 'Lato 300', 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   width: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
-.subtitle::after {
+/* .subtitle::after {
   content:"";
   width: 6rem;
   height: .2rem;
   margin-top: .5rem;
-}
+} */

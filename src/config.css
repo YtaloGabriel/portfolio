@@ -88,9 +88,9 @@ img {
   color: var(--blue1);
 }
 
-.subtitleTheme1::after {
+/* .subtitleTheme1::after {
   background-color: var(--blue2);
-}
+} */
 
 .titleTheme1 {
   color: var(--blue3) !important;

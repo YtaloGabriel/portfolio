@@ -18,6 +18,10 @@
   color: var(--white4);
   font-family: 'Lato';
   line-height: 1.35;
+  display: flex;
+  border-left: .4rem solid var(--blue1);
+  padding-left: .8rem;
+  text-align: justify;
 }
 
 /*  */
