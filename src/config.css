@@ -128,23 +128,27 @@ img {
 
 @keyframes sliderLeft {
   from {
-    transform: translateX(50%);
-    -webkit-transform: translate(50%, 0);
+    /* transform: translateX(50%);
+    -webkit-transform: translate(50%, 0); */
+    margin-right: calc(-50% + 0.5rem);
   }
   to {
-    transform: translateX(-50%);
-    -webkit-transform: translate(-50%, 0);
+    /* transform: translateX(-50%);
+    -webkit-transform: translate(-50%, 0); */
+    margin-right: calc(50% - 0.5rem);
   }
 }
 
 @keyframes sliderRight {
   from {
-    transform: translateX(-50%);
-    -webkit-transform: translate(-50%, 0);
+    /* transform: translateX(-50%);
+    -webkit-transform: translate(-50%, 0); */
+    margin-right: calc(50% - 0.5rem);
   }
   to {
-    transform: translateX(50%);
-    -webkit-transform: translate(50%, 0);
+    /* transform: translateX(50%);
+    -webkit-transform: translate(50%, 0); */
+    margin-right: calc(-50% + 0.5rem);
   }
 }
 
