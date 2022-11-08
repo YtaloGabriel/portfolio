@@ -109,42 +109,12 @@ img {
 
 /* Animations */
 
-.sliderLeft {
-  animation: sliderLeft .3s ease-in-out forwards;
-}
-
-.sliderRight {
-  animation: sliderRight .3s ease-in-out forwards;
-}
-
 .slideToLeft {
-  animation: slideToLeft .3s ease-out forwards
+  animation: slideToLeft .3s ease-out forwards;
 }
 
 .slideToRight {
-  animation: slideToRight .3s ease-out forwards
-}
-
-@keyframes sliderLeft {
-  from {
-    transform: translateX(50%);
-    -webkit-transform: translate(50%, 0);
-  }
-  to {
-    transform: translateX(-50%);
-    -webkit-transform: translate(-50%, 0);
-  }
-}
-
-@keyframes sliderRight {
-  from {
-    transform: translateX(-50%);
-    -webkit-transform: translate(-50%, 0);
-  }
-  to {
-    transform: translateX(50%);
-    -webkit-transform: translate(50%, 0);
-  }
+  animation: slideToRight .3s ease-out forwards;
 }
 
 @keyframes slideToLeft {
