@@ -2,6 +2,7 @@ import React from 'react';
 import '../../config.css';
 import Styles from './ToggleOptions.module.css';
 import { GlobalContext } from '../../GlobalContext';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export const ToggleOptions = () => {
   const { contentActive, setContentActive } = React.useContext(GlobalContext);
@@ -24,14 +25,30 @@ export const ToggleOptions = () => {
   };
 
   return (
-    <section className={Styles.container}>
+    <section className={Styles.container} id="toggleOptions">
       <div className={`${Styles.slider} ${sliderPosition}`}></div>
-      <button className={Styles.button} onClick={aboutButtonActive}>
+      <Link
+        className={Styles.button}
+        onClick={aboutButtonActive}
+        to="toggleOptions"
+        spy={false}
+        offset={-50}
+        smooth={true}
+        duration={500}
+      >
         Sobre Mim
-      </button>
-      <button className={Styles.button} onClick={projectsButtonActive}>
+      </Link>
+      <Link
+        className={Styles.button}
+        onClick={projectsButtonActive}
+        to="toggleOptions"
+        spy={true}
+        offset={-50}
+        smooth={true}
+        duration={500}
+      >
         Meus Projetos
-      </button>
+      </Link>
     </section>
   );
 };

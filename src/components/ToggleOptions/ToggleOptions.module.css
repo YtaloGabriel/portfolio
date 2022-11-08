@@ -21,11 +21,10 @@
 
 .button {
   flex: 1;
-  border: none;
-  background-color: transparent;
+  display: flex;
+  justify-content: center;
   z-index: 2;
   color: #fff;
-  /* text-transform: uppercase; */
   font-family: 'Lato';
   font-size: 1rem;
   line-height: 1rem;
